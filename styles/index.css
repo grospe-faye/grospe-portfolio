@@ -90,16 +90,16 @@ ul > li{
 #tools i, #tools p, #contact label{
 	color: white;
 }
-#tools p{
-	font-size: 25px;
+/*#tools p{
+	font-size: 20px;
 	font-weight: 15px;
-}
+}*/
 .tools-icon {
 	/*margin-right: 125px;*/
 	 display: flex;
 	 flex-wrap: wrap;
    /* justify-content: center;*/
-    gap: 80px;
+    gap: 90px;
 }
 .icon{
 	display: flex;
@@ -107,13 +107,7 @@ ul > li{
   	justify-content: center;
   	align-items: center;
     gap: 7px;
-    font-family: sans-serif;
-    font-size: 0.8em;
-}
-.icon-name{
-
-	height: 50px;
-  	width: 50px;
+    font-size: .9em;
 }
 
 /*contact section*/
@@ -172,11 +166,6 @@ ul > li{
 		min-height: 300px;
 		border-radius: 30px;
 	}
-	.tools-icon > i{
-		margin-right: 15px!important;
-		padding: 5px!important;
-	}
-
 }
 
 /*mobile screen*/
@@ -217,12 +206,6 @@ ul > li{
 
 	#about h4{
 		display: none;
-	}
-
-	/*tools section*/
-	.tools-icon > i{
-		margin-right: 15px!important;
-		padding: 5px!important;
 	}
 
 	body{
