@@ -94,8 +94,25 @@ ul > li{
 	font-size: 25px;
 	font-weight: 15px;
 }
-.tools-icon > i{
-	margin-right: 125px;
+.tools-icon {
+	/*margin-right: 125px;*/
+	 display: flex;
+   /* justify-content: center;*/
+    gap: 50px;
+}
+.icon{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+    gap: 7px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.icon-name{
+
+	 height: 50px;
+  width: 50px;
 }
 
 /*contact section*/
